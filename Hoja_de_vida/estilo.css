@@ -1,0 +1,100 @@
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 105%;
+    min-height: 100%;
+    transform: translateX(calc((100% - 100vw) / 2));
+    z-index: -2;
+  }
+  
+  h2{
+    font-family: Verdana;
+    color: #ffffff;
+    text-align: center;
+    background-color: #2176FF;
+}
+
+h3{
+    font-family: Verdana;
+    color: #111111;
+}
+
+p{
+    font-family: Verdana;
+    color: #262626;
+    font-size: large;
+}
+
+li{
+    font-family: Verdana;
+    color: #262626;
+    font-size: large;
+}
+
+th{
+    font-family: Verdana;
+    color: #111111;
+}
+
+fieldset{
+    border-color: #e406bf;
+    margin-top: 1em;
+    background-color: hsl(180, 100%, 95%);
+}
+
+legend{
+    border:2px solid #e406bf;
+    font-family: Verdana;
+    border-radius:8px;
+    font-size: large;
+    color: #b3fcff;
+    background-color: #2176FF;
+}
+
+#presentacion{
+    margin: 10px;
+    width: 19em;
+    float: left;
+    height: 98%;
+    background-color: #2176FF;
+}
+
+#contenido { 
+    margin: 10px;
+    width: calc(100% - 22em);
+    float: right;
+}
+
+.col{
+    padding: 0px 10px;
+    margin: 0px 10px;
+}
+
+#idioma{
+    display: flex;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+}
+
+.perfil{
+    display: flex;
+    justify-content: center;
+}
+
+.redes a{
+    margin: 10px 14px;
+    top: 50%;
+}
+
+.redes p{
+    display: block;
+    margin: 5px;
+}
+
+p{
+    margin: 10px 0px;
+}
